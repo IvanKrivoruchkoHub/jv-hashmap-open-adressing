@@ -5,3 +5,6 @@
 Реалізовано операції put, get, size.
 
 Працездатність реалізації продемонстрована за допомогою відповідних тестів.
+
+# <a name="authors"></a>Authors
+[Ivan Krivoruchko](https://github.com/IvanKrivoruchkoHub)
