@@ -79,7 +79,7 @@ public class MyHashMap implements MyMap {
     }
 
     private  int hash(int key) {
-        return (key == 0) ? 0 : key ^ (key >>> 16);
+        return key ^ (key >>> 16);
     }
 
     @Override

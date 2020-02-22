@@ -11,7 +11,6 @@ public class MyHashMapTest {
         for (int i = -50; i < 50; i++) {
             myHashMap.put(i, i * 2);
         }
-
         for (int i = -50; i < 50; i++) {
             long actualValue = myHashMap.get(i);
             Assert.assertEquals(String.format("Test failed! Expected %d, but was %d", i * 2, actualValue),
